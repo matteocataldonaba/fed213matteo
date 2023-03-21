@@ -1,0 +1,71 @@
+body{
+    background-color: whitesmoke;
+}
+
+.flag{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 900px;
+    height: 600px;
+    border: 20px solid #F0A45D;
+    box-sizing: border-box;
+    
+}
+
+.diamond {
+  
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -115px;
+    background-color: #F0A45D;
+    border-radius: 50px;
+    width: 230px;
+    height: 230px;
+    transform: rotate(45deg);
+}
+
+.diamond1 {
+
+    margin-left: 280px;
+    position: absolute;
+    top: 50%;
+    margin-top: -115px;
+    background-color: #F0A45D;
+    border-radius: 50px;
+    width: 230px;
+    height: 230px;
+    transform: rotate(45deg);
+}
+
+.linea {
+    background-color: #F0A45D;
+    height: 100px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.cerchio {
+    background-color: #F0A45D;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    margin-left: 650px;
+    position: absolute;
+    top: 50%;
+    margin-top: -400px;
+    
+
+
+    
+    
+    
+}
+
+

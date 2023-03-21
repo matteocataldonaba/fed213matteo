@@ -1,0 +1,66 @@
+body{
+    background-color: #121212;
+}
+
+.japan{
+    background-color: whitesmoke;
+    margin: auto;
+/*    margin-top: 50px;*/
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.mexico {
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 600px;
+}
+
+.green {
+    background-color: #2F6B4D;
+    width: 300px;
+    
+}
+.white {
+    background-color: whitesmoke;
+    width: 300px;  
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.red {
+    background-color: #C23B31;
+    width: 300px;    
+}
+
+.aquila {
+    margin-left: 45px;
+    margin-top: 200px;
+    
+}
+
+
+
+
+
+
+
