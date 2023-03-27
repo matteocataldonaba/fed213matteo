@@ -1,5 +1,11 @@
 body{
-    background-color: whitesmoke;
+    background-color: #121212;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .flag{
@@ -11,7 +17,7 @@ body{
     overflow: hidden;
     width: 900px;
     height: 600px;
-    border: 20px solid #F0A45D;
+/*    border: 20px solid #f1f1f1;*/
     box-sizing: border-box;
     
 }
@@ -22,7 +28,7 @@ body{
     position: absolute;
     top: 50%;
     margin-top: -115px;
-    background-color: #F0A45D;
+    background-color: whitesmoke;
     border-radius: 50px;
     width: 230px;
     height: 230px;
@@ -35,7 +41,7 @@ body{
     position: absolute;
     top: 50%;
     margin-top: -115px;
-    background-color: #F0A45D;
+    background-color: whitesmoke;
     border-radius: 50px;
     width: 230px;
     height: 230px;
@@ -43,7 +49,7 @@ body{
 }
 
 .linea {
-    background-color: #F0A45D;
+    background-color: whitesmoke;
     height: 100px;
     width: 900px;
     position: absolute;
@@ -51,8 +57,18 @@ body{
     margin-top: -50px;
 }
 
+.linea1 {
+    background-color: #0369a0;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50x;
+}
+
+/*
 .cerchio {
-    background-color: #F0A45D;
+    background-color: #03A9F4;
     height: 800px;
     width: 800px;
     border-radius: 50%;
@@ -60,12 +76,7 @@ body{
     position: absolute;
     top: 50%;
     margin-top: -400px;
-    
-
-
-    
-    
-    
 }
+*/
 
 
