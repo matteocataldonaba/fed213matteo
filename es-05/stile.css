@@ -8,6 +8,24 @@
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    z-index: 1;
+    position: absolute;
+}
+.contenitoreonde {
+    width: 1920px;
+    height: 1080px;
+  position: relative;
+/*
+    border: 5px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: auto;
+*/
+/*
+    z-index: 2;
+    position: absolute;
+    display: flex;
+*/
 }
 .primavela {
     width: 344px;
@@ -91,9 +109,17 @@
     background: black;
     position: relative;
     top: 850px;
-    left: -300px;
+    left: -450px;
 }
-
+.onda1{
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 810px;
+    left: 400px;
+}
 
 
 
