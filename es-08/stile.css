@@ -1,0 +1,189 @@
+body{
+    background-color: #121212;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+/*    font-size: 2vw;*/
+}
+.flag{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 900px;
+    height: 600px;
+    box-sizing: border-box;
+/*    max-width: 100%;*/
+}
+.diamond {
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -115px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    width: 230px;
+    height: 230px;
+    transform: rotate(45deg);
+}
+.diamond1 {
+    margin-left: 280px;
+    position: absolute;
+    top: 50%;
+    margin-top: -115px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    width: 230px;
+    height: 230px;
+    transform: rotate(45deg);
+}
+.linea {
+    background-color: whitesmoke;
+    height: 100px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+.linea1 {
+    background-color: #0369a0;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50x;
+}
+.cerchione {
+  background-color: whitesmoke;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+/*  position: absolute;*/
+  margin: auto;
+  margin-top: 100px;
+}
+.riflessi {
+  height: 500px;
+  width: 500px;
+/*  background-color: black;*/
+/*  border: 1px solid black;*/
+  margin: auto;
+}
+.reflex01 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.reflex02 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.reflex03 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.reflex04 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.reflex05 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.reflex06 {
+  background-color: whitesmoke;
+  height: 20px;
+  width: 35px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.luna {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 2rem 2rem 0 0 #ffffff;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+@media only screen and (min-width: 0px) and (max-width: 374px) {
+  .cerchione {
+    display: none;
+  }
+    .riflessi {
+    display: none;
+  }
+  .luna {
+    display: none;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 720px) {
+  .diamond {
+    display: none;
+  }
+  .diamond1 {
+    display: none;
+  } 
+  .flag {
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);    
+  }
+  .linea1 {
+    background-color: #ff9500;
+  }
+}
+@media only screen and (min-width: 721px) and (max-width: 2560px) {
+  .cerchione {
+    display: none;
+  }
+  .riflessi {
+    display: none;
+  }
+  .diamond {
+    display: none;
+  }
+  .diamond1 {
+    display: none;
+  } 
+  .flag {
+    background: rgb(18,43,66);
+  }
+  .linea1{
+    background-color: #122b42
+;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
