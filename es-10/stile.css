@@ -1,0 +1,262 @@
+body{
+  background-color: #202020;
+  background-image: url(Images/fingerprints.png);
+  background-size: contain;
+}
+.primasezione{
+/*  border: 2px solid red;*/
+  margin: auto;
+  width: 1000px;
+  height:500px;
+  background-image: url(Images/rippedpaperdef.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.secondasezione{
+/*  border: 2px solid red;*/
+  margin: auto;
+  width: 1000px;
+  height:500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lettera{
+/*  border: 2px solid red;*/
+  margin: 30px;
+  height: 350px;
+  width: 350px;
+}
+.A{
+  background-image: url(Images/a1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: animation1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.B{
+  background-image: url(Images/a1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: animation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation1 {
+  0% {
+    background-image:url(Images/a1.png)
+  }
+  16% {
+    background-image: url(Images/a2.png)
+  }
+  32% {
+    background-image: url(Images/a3.png)
+  }
+  48% {
+    background-image: url(Images/a4.png)
+      }
+  64% {
+    background-image: url(Images/a5.png)
+      }
+  100% {
+    background-image: url(Images/a1.png)
+      }
+    }
+@keyframes animation2 {
+  0% {
+    background-image:url(Images/b1.png)
+  }
+  16% {
+    background-image: url(Images/b2.png)
+  }
+  32% {
+    background-image: url(Images/b3.png)
+  }
+  48% {
+    background-image: url(Images/b4.png)
+      }
+  64% {
+    background-image: url(Images/b5.png)
+      }
+  100% {
+    background-image: url(Images/b1.png)
+      }
+    }
+.handwritten{
+/*  border: 2px solid red;*/
+  margin: -30px auto;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.alfabeto{
+/*  border: 1px solid red;*/
+  margin: 6px;
+  width: 150px;
+  height: 150px;
+}
+.A2 {
+  background-image: url(Images/a1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.B2 {
+  background-image: url(Images/b1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.C {
+  background-image: url(Images/c.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.D {
+  background-image: url(Images/D.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.E {
+  background-image: url(Images/e.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.F {
+  background-image: url(Images/F.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.G {
+  background-image: url(Images/G.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.H {
+  background-image: url(Images/H.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.I {
+  background-image: url(Images/I.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.J {
+  background-image: url(Images/J.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.K {
+  background-image: url(Images/K.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.L {
+  background-image: url(Images/L.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.M {
+  background-image: url(Images/M.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.N {
+  background-image: url(Images/N.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.O {
+  background-image: url(Images/O.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.P {
+  background-image: url(Images/P.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Q {
+  background-image: url(Images/Q.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.R {
+  background-image: url(Images/R.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.S {
+  background-image: url(Images/S.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.T {
+  background-image: url(Images/T.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.U {
+  background-image: url(Images/U.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.V {
+  background-image: url(Images/V.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.W {
+  background-image: url(Images/W.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.X {
+  background-image: url(Images/X.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Y {
+  background-image: url(Images/Y.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Z {
+  background-image: url(Images/Z.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
