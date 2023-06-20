@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
   background-color: #202020;
   background-image: url(Images/fingerprints.png);
@@ -257,6 +258,30 @@ body{
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.footer {
+/*  border: 1px solid red;*/
+  background-color: #181818;
+  height: auto;
+  padding: 20px;
+  line-height: 1.4;
+  font-family: 'Ubuntu', sans-serif;
+}
+.footer a:link {
+  color: #FFFFFF;
+}
+.footer a:visited {
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: red;
+}
+.footer a:active {
+    color: #ffffff;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
 
 
